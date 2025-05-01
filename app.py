@@ -4,7 +4,8 @@ import wikipedia
 import os
 
 # Configure API Key
-genai.configure(api_key="AIzaSyA3xrnPl876ZlRbyNXYIgB7yTTev4mrh7k")  # Ideally load from env for safety
+genai.configure(api_key="Api key")
+# Ideally load from env for safety
 
 # Load the Gemini model
 try:
